@@ -25,3 +25,4 @@ namespace LAB1Malinowski {
         }
     }
 }
+

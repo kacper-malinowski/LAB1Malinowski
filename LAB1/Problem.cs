@@ -17,13 +17,6 @@
             }
         }
 
-        public void ViewItems() {
-            Console.WriteLine("All items: ");
-            foreach (Item item in items) {
-                Console.WriteLine("ID: " + item.ID + " Value: " + item.value + " Weight: " + item.weight);
-            }
-        }
-
         public void sortItems() {
             ordered = items.OrderByDescending(item => item.effectiveValue);
         }
@@ -39,6 +32,15 @@
                 }
             }
             return knapsack;
+        }
+
+        public void ViewItems()
+        {
+            Console.WriteLine("All items: ");
+            foreach (Item item in items)
+            {
+                Console.WriteLine("ID: " + item.ID + " Value: " + item.value + " Weight: " + item.weight);
+            }
         }
 
         public Result Solve(TerminalInput input) {

@@ -11,7 +11,6 @@ namespace LAB1Malinowski {
         public int totalValue = 0;
         public int totalWeight = 0;
 
-
         public Result() {
             stolenItems = new List<Item>(); // Inicjalizacja listy
         }

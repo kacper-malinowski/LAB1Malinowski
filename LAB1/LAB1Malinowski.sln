@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LAB1Malinowski", "LAB1Malinowski.csproj", "{E62D3F97-1CFD-4A3F-BD15-DD197F9D0086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackProblemTests", "..\KnapsackProblemTests\KnapsackProblemTests.csproj", "{F0AD412D-8FDA-4818-AD2B-B5CD57AC169D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnapsackProblemTests", "..\KnapsackProblemTests\KnapsackProblemTests.csproj", "{F0AD412D-8FDA-4818-AD2B-B5CD57AC169D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

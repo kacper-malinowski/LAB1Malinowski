@@ -7,8 +7,10 @@
             Problem problem = new Problem();
             TerminalInput input = new TerminalInput();
             Result knapsack = new Result();
+
             input = input.downloadInput();
             knapsack = problem.Solve(input);
+
             Console.WriteLine(knapsack);
         }
     }
